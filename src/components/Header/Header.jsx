@@ -9,7 +9,7 @@ const Header = () => {
         <img src={logo} alt="netflix logo" />
         <div>
             <Link to='/tvshows'>TV shows</Link>
-            <Link to='/movies'>Movies</Link>
+            <Link to='/'>Movies</Link>
             <Link to='/recent'>Recently Added</Link>
             <Link to='/mylist'>My List</Link>
         </div>
