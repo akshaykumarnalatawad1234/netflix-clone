@@ -65,7 +65,7 @@ const Home = () => {
         const getAllGenre = async() => {
             const {data : {genres}} = await axios.get(`${url}/genre/movie/list?api_key=${apiKey}`)
             setGenre(genres);
-            console.log(genres);
+            // console.log(genres);
         };
 
         fetchUpcoming();
