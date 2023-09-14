@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
+        <Route path='/netflix-clone/' element={<Home/>}></Route>
       </Routes>
     </Router>
   )
